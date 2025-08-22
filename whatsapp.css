@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(255, 234, 234);
+}
+.container{
+    border: 3px solid black ;
+    border-radius: 30px;
+    height: 540px;
+    width: 300px;
+    display: flex;
+    margin: 0px auto;
+    z-index: 100;
+    flex-direction: column;
+    overflow: hidden;
+}
+header{
+    background-color: rgb(30, 93, 63);
+    height: 50px;
+    border-top-left-radius: 25.3px;
+    border-top-right-radius: 25.3px;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 10px;
+    flex-shrink: 0;
+}
+.profile-pic{
+    font-size: 25px;
+    margin-left: 5px;
+    font-weight: bolder;
+    border-radius: 50%;
+    background-color: rgb(222, 219, 219);
+    height: 35px;
+    width: 35px;
+    margin-right: 5px;
+}
+img{
+    width: 100%;
+}
+.profile{
+    font-size: 15px;
+    line-height: 1px;
+}
+.profile-status{
+    line-height: 1px;
+    font-size: 11px;
+}
+
+.icons{
+    font-size: 16px;
+    font-weight: 900;
+    display: flex;
+    gap: 13px;
+    margin-left:110px;
+}
+main{
+    overflow: hidden;
+    overflow: scroll;
+    scrollbar-width: none;
+    background-image: url(https://i.pinimg.com/736x/41/12/6b/41126bab101c723bd80a01e4ff771e6f.jpg);
+}
+footer{
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+.btn {
+    height: 15px;
+    margin: 7px;
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-radius: 20px;
+    border: 1px solid #969393;
+}
+
+footer input {
+    background-color: white;
+  width: 100%;
+  padding: 8px;
+  border: none;
+}
+.ftr-icn{
+    display: flex;
+    font-size: 15px;
+    gap: 10px;
+}
+.rupee{
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 16px;
+    width: 16px;
+}
+.mic{
+    padding: 8px 10px;
+    border-radius: 50%;
+    background-color: green;
+    margin-right: 5px;
+}
+.date{
+    text-align: center;
+    background-color: #c9c8c8;
+    padding: 3px;
+    position: sticky;
+    top: 0;
+    display: block;
+    width: fit-content;
+    margin: 5px auto;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.friend{
+    margin-left: auto;
+    width: fit-content;
+    text-align: end;
+    background-color: rgb(30, 93, 63);
+    color: white;
+    border-radius: 10px;
+    padding: 0px 5px;
+}
+.me{
+    width: fit-content;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 0px 5px;
+}
