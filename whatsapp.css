@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     width: 100%;
-    background-color: rgb(255, 234, 234);
+    background-color: rgb(240, 204, 204);
 }
 .container{
     border: 3px solid black ;
@@ -59,7 +59,7 @@ main{
     overflow: hidden;
     overflow: scroll;
     scrollbar-width: none;
-    background-image: url(https://i.pinimg.com/736x/41/12/6b/41126bab101c723bd80a01e4ff771e6f.jpg);
+    background-image: url(https://i.pinimg.com/474x/50/35/be/5035be08b845784629ccd2a76119b40e.jpg);
 }
 footer{
     display: flex;
@@ -81,9 +81,9 @@ footer{
 
 footer input {
     background-color: white;
-  width: 100%;
-  padding: 8px;
-  border: none;
+    width: 100%;
+    padding: 8px;
+    border: none;
 }
 .ftr-icn{
     display: flex;
@@ -99,15 +99,15 @@ footer input {
 .mic{
     padding: 8px 10px;
     border-radius: 50%;
-    background-color: green;
+    background-color: rgb(3, 168, 3);
     margin-right: 5px;
 }
 .date{
     text-align: center;
-    background-color: #c9c8c8;
+    background-color: rgb(222, 221, 221);
     padding: 3px;
     position: sticky;
-    top: 0;
+    top: 5px;
     display: block;
     width: fit-content;
     margin: 5px auto;
@@ -118,7 +118,7 @@ footer input {
     margin-left: auto;
     width: fit-content;
     text-align: end;
-    background-color: rgb(30, 93, 63);
+    background-color: rgb(35, 111, 74);
     color: white;
     border-radius: 10px;
     padding: 0px 5px;
@@ -129,4 +129,7 @@ footer input {
     color: rgb(0, 0, 0);
     border-radius: 10px;
     padding: 0px 5px;
+}
+footer input:focus {
+  outline: none;
 }
